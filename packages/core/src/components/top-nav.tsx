@@ -40,7 +40,7 @@ function Root({ children }: { children: ReactNode }) {
   return (
     <TopNavContext.Provider value={{ pathname, isActive }}>
       <View className="px-3" style={{ paddingTop: insets.top + (Platform.OS === "web" ? 12 : 0) }}>
-        <View className="flex-row items-center justify-center">{children}</View>
+        <View className="h-11 flex-row items-center justify-center">{children}</View>
       </View>
     </TopNavContext.Provider>
   );

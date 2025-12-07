@@ -37,7 +37,6 @@ function FossTopNav() {
       <TopNav.Left>
         <TopNav.LogoOrTime />
       </TopNav.Left>
-      <TopNav.Sections items={SECTIONS} />
     </TopNav.Root>
   );
 }
