@@ -34,14 +34,28 @@ bun android       # build & run android
 
 > **Note:** `EXPO_PUBLIC_HYDRA_API_URL` is optional when the frontend is bundled with the backend (single binary). When running the backend separately during development, set this to your backend URL (e.g., `http://localhost:50051`).
 
-## Native Development
+## Web
 
-### Android
+Works out of the box. Set `EXPO_PUBLIC_HYDRA_API_URL` to point to a backend.
 
-When running the backend locally, set up port forwarding so the device can reach localhost:
+## Android
+
+Two options:
+
+**Option 1: Remote backend** (no AAR needed)
 
 ```bash
 adb reverse tcp:50051 tcp:50051
+```
+
+Set `EXPO_PUBLIC_HYDRA_API_URL=http://localhost:50051` and run the backend on your machine.
+
+**Option 2: Native backend** (requires AAR)
+
+Backend runs on device via `hydra.aar` - see `packages/hydra-engine/README.md`.
+
+```bash
+adb forward tcp:50051 tcp:50051  # to push test data to device
 ```
 
 ## Troubleshooting

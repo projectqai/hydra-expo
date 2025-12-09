@@ -12,7 +12,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file world.proto.
  */
 export const file_world: GenFile = /*@__PURE__*/
-  fileDesc("Cgt3b3JsZC5wcm90bxIFd29ybGQi2wQKBkVudGl0eRIKCgJpZBgBIAEoCRISCgVsYWJlbBgCIAEoCUgAiAEBEi0KCmNvbnRyb2xsZXIYAyABKAsyFC53b3JsZC5Db250cm9sbGVyUmVmSAGIAQESJgoIbGlmZXRpbWUYBCABKAsyDy53b3JsZC5MaWZldGltZUgCiAEBEiwKA2dlbxgLIAEoCzIaLndvcmxkLkdlb1NwYXRpYWxDb21wb25lbnRIA4gBARIrCgZzeW1ib2wYDCABKAsyFi53b3JsZC5TeW1ib2xDb21wb25lbnRIBIgBARIrCgZjYW1lcmEYDyABKAsyFi53b3JsZC5DYW1lcmFDb21wb25lbnRIBYgBARIxCglkZXRlY3Rpb24YECABKAsyGS53b3JsZC5EZXRlY3Rpb25Db21wb25lbnRIBogBARItCgdiZWFyaW5nGBEgASgLMhcud29ybGQuQmVhcmluZ0NvbXBvbmVudEgHiAEBEkUKE2xvY2F0aW9uVW5jZXJ0YWludHkYFCABKAsyIy53b3JsZC5Mb2NhdGlvblVuY2VydGFpbnR5Q29tcG9uZW50SAiIAQESKQoFdHJhY2sYFSABKAsyFS53b3JsZC5UcmFja0NvbXBvbmVudEgJiAEBQggKBl9sYWJlbEINCgtfY29udHJvbGxlckILCglfbGlmZXRpbWVCBgoEX2dlb0IJCgdfc3ltYm9sQgkKB19jYW1lcmFCDAoKX2RldGVjdGlvbkIKCghfYmVhcmluZ0IWChRfbG9jYXRpb25VbmNlcnRhaW50eUIICgZfdHJhY2siKQoNQ29udHJvbGxlclJlZhIKCgJpZBgBIAEoCRIMCgRuYW1lGAIgASgJInwKCExpZmV0aW1lEi0KBGZyb20YASABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wSACIAQESLgoFdW50aWwYAiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wSAGIAQFCBwoFX2Zyb21CCAoGX3VudGlsIkwKE0dlb1NwYXRpYWxDb21wb25lbnQSEQoJbG9uZ2l0dWRlGAEgASgBEhAKCGxhdGl0dWRlGAIgASgBEhAKCGFsdGl0dWRlGAMgASgBIiYKD1N5bWJvbENvbXBvbmVudBITCgttaWxTdGQyNTI1QxgBIAEoCSIkCgZDYW1lcmESDQoFbGFiZWwYASABKAkSCwoDdXJsGAIgASgJIjEKD0NhbWVyYUNvbXBvbmVudBIeCgdjYW1lcmFzGAEgAygLMg0ud29ybGQuQ2FtZXJhIsABChJEZXRlY3Rpb25Db21wb25lbnQSHQoQZGV0ZWN0b3JFbnRpdHlJRBgBIAEoCUgAiAEBEhsKDmNsYXNzaWZpY2F0aW9uGAIgASgJSAGIAQESNQoMbGFzdE1lYXN1cmVkGAMgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcEgCiAEBQhMKEV9kZXRlY3RvckVudGl0eUlEQhEKD19jbGFzc2lmaWNhdGlvbkIPCg1fbGFzdE1lYXN1cmVkIloKEEJlYXJpbmdDb21wb25lbnQSFAoHYXppbXV0aBgBIAEoAUgAiAEBEhYKCWVsZXZhdGlvbhgCIAEoAUgBiAEBQgoKCF9hemltdXRoQgwKCl9lbGV2YXRpb24irgEKEENvdmFyaWFuY2VNYXRyaXgSEAoDbXh4GAEgASgBSACIAQESEAoDbXh5GAIgASgBSAGIAQESEAoDbXh6GAMgASgBSAKIAQESEAoDbXl5GAQgASgBSAOIAQESEAoDbXl6GAUgASgBSASIAQESEAoDbXp6GAYgASgBSAWIAQFCBgoEX214eEIGCgRfbXh5QgYKBF9teHpCBgoEX215eUIGCgRfbXl6QgYKBF9tenoisAEKHExvY2F0aW9uVW5jZXJ0YWludHlDb21wb25lbnQSNAoOcG9zaXRpb25FbnVDb3YYASABKAsyFy53b3JsZC5Db3ZhcmlhbmNlTWF0cml4SACIAQESNAoOdmVsb2NpdHlFbnVDb3YYAiABKAsyFy53b3JsZC5Db3ZhcmlhbmNlTWF0cml4SAGIAQFCEQoPX3Bvc2l0aW9uRW51Q292QhEKD192ZWxvY2l0eUVudUNvdiIQCg5UcmFja0NvbXBvbmVudCIXCghHZW9tZXRyeRILCgN3a2IYASABKAwiQAoTTGlzdEVudGl0aWVzUmVxdWVzdBIhCgNnZW8YAiABKAsyDy53b3JsZC5HZW9tZXRyeUgAiAEBQgYKBF9nZW8iNwoUTGlzdEVudGl0aWVzUmVzcG9uc2USHwoIZW50aXRpZXMYASADKAsyDS53b3JsZC5FbnRpdHkiNQoTRW50aXR5Q2hhbmdlUmVxdWVzdBIeCgdjaGFuZ2VzGAEgAygLMg0ud29ybGQuRW50aXR5IjcKFEVudGl0eUNoYW5nZVJlc3BvbnNlEhAKCGFjY2VwdGVkGAEgASgIEg0KBWRlYnVnGAIgASgJIlIKEUVudGl0eUNoYW5nZUV2ZW50Eh0KBmVudGl0eRgBIAEoCzINLndvcmxkLkVudGl0eRIeCgF0GAIgASgOMhMud29ybGQuRW50aXR5Q2hhbmdlIh4KEEdldEVudGl0eVJlcXVlc3QSCgoCaWQYASABKAkiMgoRR2V0RW50aXR5UmVzcG9uc2USHQoGZW50aXR5GAEgASgLMg0ud29ybGQuRW50aXR5IhEKD09ic2VydmVyUmVxdWVzdCJzCg1PYnNlcnZlclN0YXRlEhwKA2dlbxgBIAEoCzIPLndvcmxkLkdlb21ldHJ5EjQKC3ZpZXdIaXN0b3J5GAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcEgAiAEBQg4KDF92aWV3SGlzdG9yeSpFCgxFbnRpdHlDaGFuZ2USCwoHSW52YWxpZBAAEgsKB1VwZGF0ZWQQARILCgdFeHBpcmVkEAISDgoKVW5vYnNlcnZlZBADMtwCCgxXb3JsZFNlcnZpY2USRwoMTGlzdEVudGl0aWVzEhoud29ybGQuTGlzdEVudGl0aWVzUmVxdWVzdBobLndvcmxkLkxpc3RFbnRpdGllc1Jlc3BvbnNlEj4KCUdldEVudGl0eRIXLndvcmxkLkdldEVudGl0eVJlcXVlc3QaGC53b3JsZC5HZXRFbnRpdHlSZXNwb25zZRJHCg1XYXRjaEVudGl0aWVzEhoud29ybGQuTGlzdEVudGl0aWVzUmVxdWVzdBoYLndvcmxkLkVudGl0eUNoYW5nZUV2ZW50MAESPwoEUHVzaBIaLndvcmxkLkVudGl0eUNoYW5nZVJlcXVlc3QaGy53b3JsZC5FbnRpdHlDaGFuZ2VSZXNwb25zZRI5CgdPYnNlcnZlEhYud29ybGQuT2JzZXJ2ZXJSZXF1ZXN0GhQud29ybGQuT2JzZXJ2ZXJTdGF0ZTABQiBaHmdpdGh1Yi5jb20vcHJvamVjdHFhaS9wcm90by9nb2IGcHJvdG8z", [file_google_protobuf_timestamp]);
+  fileDesc("Cgt3b3JsZC5wcm90bxIFd29ybGQiywUKBkVudGl0eRIKCgJpZBgBIAEoCRISCgVsYWJlbBgCIAEoCUgAiAEBEi0KCmNvbnRyb2xsZXIYAyABKAsyFC53b3JsZC5Db250cm9sbGVyUmVmSAGIAQESJgoIbGlmZXRpbWUYBCABKAsyDy53b3JsZC5MaWZldGltZUgCiAEBEiYKCHByaW9yaXR5GAUgASgOMg8ud29ybGQuUHJpb3JpdHlIA4gBARIsCgNnZW8YCyABKAsyGi53b3JsZC5HZW9TcGF0aWFsQ29tcG9uZW50SASIAQESKwoGc3ltYm9sGAwgASgLMhYud29ybGQuU3ltYm9sQ29tcG9uZW50SAWIAQESKwoGY2FtZXJhGA8gASgLMhYud29ybGQuQ2FtZXJhQ29tcG9uZW50SAaIAQESMQoJZGV0ZWN0aW9uGBAgASgLMhkud29ybGQuRGV0ZWN0aW9uQ29tcG9uZW50SAeIAQESLQoHYmVhcmluZxgRIAEoCzIXLndvcmxkLkJlYXJpbmdDb21wb25lbnRICIgBARJFChNsb2NhdGlvblVuY2VydGFpbnR5GBQgASgLMiMud29ybGQuTG9jYXRpb25VbmNlcnRhaW50eUNvbXBvbmVudEgJiAEBEikKBXRyYWNrGBUgASgLMhUud29ybGQuVHJhY2tDb21wb25lbnRICogBARItCgdsb2NhdG9yGBYgASgLMhcud29ybGQuTG9jYXRvckNvbXBvbmVudEgLiAEBQggKBl9sYWJlbEINCgtfY29udHJvbGxlckILCglfbGlmZXRpbWVCCwoJX3ByaW9yaXR5QgYKBF9nZW9CCQoHX3N5bWJvbEIJCgdfY2FtZXJhQgwKCl9kZXRlY3Rpb25CCgoIX2JlYXJpbmdCFgoUX2xvY2F0aW9uVW5jZXJ0YWludHlCCAoGX3RyYWNrQgoKCF9sb2NhdG9yIikKDUNvbnRyb2xsZXJSZWYSCgoCaWQYASABKAkSDAoEbmFtZRgCIAEoCSJ8CghMaWZldGltZRItCgRmcm9tGAEgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcEgAiAEBEi4KBXVudGlsGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcEgBiAEBQgcKBV9mcm9tQggKBl91bnRpbCJMChNHZW9TcGF0aWFsQ29tcG9uZW50EhEKCWxvbmdpdHVkZRgBIAEoARIQCghsYXRpdHVkZRgCIAEoARIQCghhbHRpdHVkZRgDIAEoASImCg9TeW1ib2xDb21wb25lbnQSEwoLbWlsU3RkMjUyNUMYASABKAkiJAoGQ2FtZXJhEg0KBWxhYmVsGAEgASgJEgsKA3VybBgCIAEoCSIxCg9DYW1lcmFDb21wb25lbnQSHgoHY2FtZXJhcxgBIAMoCzINLndvcmxkLkNhbWVyYSLAAQoSRGV0ZWN0aW9uQ29tcG9uZW50Eh0KEGRldGVjdG9yRW50aXR5SUQYASABKAlIAIgBARIbCg5jbGFzc2lmaWNhdGlvbhgCIAEoCUgBiAEBEjUKDGxhc3RNZWFzdXJlZBgDIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXBIAogBAUITChFfZGV0ZWN0b3JFbnRpdHlJREIRCg9fY2xhc3NpZmljYXRpb25CDwoNX2xhc3RNZWFzdXJlZCJaChBCZWFyaW5nQ29tcG9uZW50EhQKB2F6aW11dGgYASABKAFIAIgBARIWCgllbGV2YXRpb24YAiABKAFIAYgBAUIKCghfYXppbXV0aEIMCgpfZWxldmF0aW9uIq4BChBDb3ZhcmlhbmNlTWF0cml4EhAKA214eBgBIAEoAUgAiAEBEhAKA214eRgCIAEoAUgBiAEBEhAKA214ehgDIAEoAUgCiAEBEhAKA215eRgEIAEoAUgDiAEBEhAKA215ehgFIAEoAUgEiAEBEhAKA216ehgGIAEoAUgFiAEBQgYKBF9teHhCBgoEX214eUIGCgRfbXh6QgYKBF9teXlCBgoEX215ekIGCgRfbXp6IrABChxMb2NhdGlvblVuY2VydGFpbnR5Q29tcG9uZW50EjQKDnBvc2l0aW9uRW51Q292GAEgASgLMhcud29ybGQuQ292YXJpYW5jZU1hdHJpeEgAiAEBEjQKDnZlbG9jaXR5RW51Q292GAIgASgLMhcud29ybGQuQ292YXJpYW5jZU1hdHJpeEgBiAEBQhEKD19wb3NpdGlvbkVudUNvdkIRCg9fdmVsb2NpdHlFbnVDb3YiEAoOVHJhY2tDb21wb25lbnQiKwoQTG9jYXRvckNvbXBvbmVudBIXCg9sb2NhdGVkRW50aXR5SUQYASABKAkiFwoIR2VvbWV0cnkSCwoDd2tiGAEgASgMIkAKE0xpc3RFbnRpdGllc1JlcXVlc3QSIQoDZ2VvGAIgASgLMg8ud29ybGQuR2VvbWV0cnlIAIgBAUIGCgRfZ2VvIjcKFExpc3RFbnRpdGllc1Jlc3BvbnNlEh8KCGVudGl0aWVzGAEgAygLMg0ud29ybGQuRW50aXR5IjUKE0VudGl0eUNoYW5nZVJlcXVlc3QSHgoHY2hhbmdlcxgBIAMoCzINLndvcmxkLkVudGl0eSI3ChRFbnRpdHlDaGFuZ2VSZXNwb25zZRIQCghhY2NlcHRlZBgBIAEoCBINCgVkZWJ1ZxgCIAEoCSJSChFFbnRpdHlDaGFuZ2VFdmVudBIdCgZlbnRpdHkYASABKAsyDS53b3JsZC5FbnRpdHkSHgoBdBgCIAEoDjITLndvcmxkLkVudGl0eUNoYW5nZSIeChBHZXRFbnRpdHlSZXF1ZXN0EgoKAmlkGAEgASgJIjIKEUdldEVudGl0eVJlc3BvbnNlEh0KBmVudGl0eRgBIAEoCzINLndvcmxkLkVudGl0eSIRCg9PYnNlcnZlclJlcXVlc3QicwoNT2JzZXJ2ZXJTdGF0ZRIcCgNnZW8YASABKAsyDy53b3JsZC5HZW9tZXRyeRI0Cgt2aWV3SGlzdG9yeRgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXBIAIgBAUIOCgxfdmlld0hpc3RvcnkqVwoIUHJpb3JpdHkSFQoRUHJpb3JpdHlSZXNlcnZlZDAQABIPCgtQcmlvcml0eUxvdxABEhAKDFByaW9yaXR5SGlnaBACEhEKDVByaW9yaXR5QnVyc3QQAyp1CgxFbnRpdHlDaGFuZ2USFwoTRW50aXR5Q2hhbmdlSW52YWxpZBAAEhcKE0VudGl0eUNoYW5nZVVwZGF0ZWQQARIXChNFbnRpdHlDaGFuZ2VFeHBpcmVkEAISGgoWRW50aXR5Q2hhbmdlVW5vYnNlcnZlZBADMtwCCgxXb3JsZFNlcnZpY2USRwoMTGlzdEVudGl0aWVzEhoud29ybGQuTGlzdEVudGl0aWVzUmVxdWVzdBobLndvcmxkLkxpc3RFbnRpdGllc1Jlc3BvbnNlEj4KCUdldEVudGl0eRIXLndvcmxkLkdldEVudGl0eVJlcXVlc3QaGC53b3JsZC5HZXRFbnRpdHlSZXNwb25zZRJHCg1XYXRjaEVudGl0aWVzEhoud29ybGQuTGlzdEVudGl0aWVzUmVxdWVzdBoYLndvcmxkLkVudGl0eUNoYW5nZUV2ZW50MAESPwoEUHVzaBIaLndvcmxkLkVudGl0eUNoYW5nZVJlcXVlc3QaGy53b3JsZC5FbnRpdHlDaGFuZ2VSZXNwb25zZRI5CgdPYnNlcnZlEhYud29ybGQuT2JzZXJ2ZXJSZXF1ZXN0GhQud29ybGQuT2JzZXJ2ZXJTdGF0ZTABQiBaHmdpdGh1Yi5jb20vcHJvamVjdHFhaS9wcm90by9nb2IGcHJvdG8z", [file_google_protobuf_timestamp]);
 
 /**
  * @generated from message world.Entity
@@ -37,6 +37,11 @@ export type Entity = Message<"world.Entity"> & {
    * @generated from field: optional world.Lifetime lifetime = 4;
    */
   lifetime?: Lifetime;
+
+  /**
+   * @generated from field: optional world.Priority priority = 5;
+   */
+  priority?: Priority;
 
   /**
    * @generated from field: optional world.GeoSpatialComponent geo = 11;
@@ -72,6 +77,11 @@ export type Entity = Message<"world.Entity"> & {
    * @generated from field: optional world.TrackComponent track = 21;
    */
   track?: TrackComponent;
+
+  /**
+   * @generated from field: optional world.LocatorComponent locator = 22;
+   */
+  locator?: LocatorComponent;
 };
 
 /**
@@ -335,6 +345,23 @@ export const TrackComponentSchema: GenMessage<TrackComponent> = /*@__PURE__*/
   messageDesc(file_world, 11);
 
 /**
+ * @generated from message world.LocatorComponent
+ */
+export type LocatorComponent = Message<"world.LocatorComponent"> & {
+  /**
+   * @generated from field: string locatedEntityID = 1;
+   */
+  locatedEntityID: string;
+};
+
+/**
+ * Describes the message world.LocatorComponent.
+ * Use `create(LocatorComponentSchema)` to create a new message.
+ */
+export const LocatorComponentSchema: GenMessage<LocatorComponent> = /*@__PURE__*/
+  messageDesc(file_world, 12);
+
+/**
  * @generated from message world.Geometry
  */
 export type Geometry = Message<"world.Geometry"> & {
@@ -349,7 +376,7 @@ export type Geometry = Message<"world.Geometry"> & {
  * Use `create(GeometrySchema)` to create a new message.
  */
 export const GeometrySchema: GenMessage<Geometry> = /*@__PURE__*/
-  messageDesc(file_world, 12);
+  messageDesc(file_world, 13);
 
 /**
  * @generated from message world.ListEntitiesRequest
@@ -366,7 +393,7 @@ export type ListEntitiesRequest = Message<"world.ListEntitiesRequest"> & {
  * Use `create(ListEntitiesRequestSchema)` to create a new message.
  */
 export const ListEntitiesRequestSchema: GenMessage<ListEntitiesRequest> = /*@__PURE__*/
-  messageDesc(file_world, 13);
+  messageDesc(file_world, 14);
 
 /**
  * @generated from message world.ListEntitiesResponse
@@ -383,7 +410,7 @@ export type ListEntitiesResponse = Message<"world.ListEntitiesResponse"> & {
  * Use `create(ListEntitiesResponseSchema)` to create a new message.
  */
 export const ListEntitiesResponseSchema: GenMessage<ListEntitiesResponse> = /*@__PURE__*/
-  messageDesc(file_world, 14);
+  messageDesc(file_world, 15);
 
 /**
  * @generated from message world.EntityChangeRequest
@@ -400,7 +427,7 @@ export type EntityChangeRequest = Message<"world.EntityChangeRequest"> & {
  * Use `create(EntityChangeRequestSchema)` to create a new message.
  */
 export const EntityChangeRequestSchema: GenMessage<EntityChangeRequest> = /*@__PURE__*/
-  messageDesc(file_world, 15);
+  messageDesc(file_world, 16);
 
 /**
  * @generated from message world.EntityChangeResponse
@@ -422,7 +449,7 @@ export type EntityChangeResponse = Message<"world.EntityChangeResponse"> & {
  * Use `create(EntityChangeResponseSchema)` to create a new message.
  */
 export const EntityChangeResponseSchema: GenMessage<EntityChangeResponse> = /*@__PURE__*/
-  messageDesc(file_world, 16);
+  messageDesc(file_world, 17);
 
 /**
  * @generated from message world.EntityChangeEvent
@@ -444,7 +471,7 @@ export type EntityChangeEvent = Message<"world.EntityChangeEvent"> & {
  * Use `create(EntityChangeEventSchema)` to create a new message.
  */
 export const EntityChangeEventSchema: GenMessage<EntityChangeEvent> = /*@__PURE__*/
-  messageDesc(file_world, 17);
+  messageDesc(file_world, 18);
 
 /**
  * @generated from message world.GetEntityRequest
@@ -461,7 +488,7 @@ export type GetEntityRequest = Message<"world.GetEntityRequest"> & {
  * Use `create(GetEntityRequestSchema)` to create a new message.
  */
 export const GetEntityRequestSchema: GenMessage<GetEntityRequest> = /*@__PURE__*/
-  messageDesc(file_world, 18);
+  messageDesc(file_world, 19);
 
 /**
  * @generated from message world.GetEntityResponse
@@ -478,7 +505,7 @@ export type GetEntityResponse = Message<"world.GetEntityResponse"> & {
  * Use `create(GetEntityResponseSchema)` to create a new message.
  */
 export const GetEntityResponseSchema: GenMessage<GetEntityResponse> = /*@__PURE__*/
-  messageDesc(file_world, 19);
+  messageDesc(file_world, 20);
 
 /**
  * @generated from message world.ObserverRequest
@@ -491,7 +518,7 @@ export type ObserverRequest = Message<"world.ObserverRequest"> & {
  * Use `create(ObserverRequestSchema)` to create a new message.
  */
 export const ObserverRequestSchema: GenMessage<ObserverRequest> = /*@__PURE__*/
-  messageDesc(file_world, 20);
+  messageDesc(file_world, 21);
 
 /**
  * @generated from message world.ObserverState
@@ -513,38 +540,79 @@ export type ObserverState = Message<"world.ObserverState"> & {
  * Use `create(ObserverStateSchema)` to create a new message.
  */
 export const ObserverStateSchema: GenMessage<ObserverState> = /*@__PURE__*/
-  messageDesc(file_world, 21);
+  messageDesc(file_world, 22);
+
+/**
+ * @generated from enum world.Priority
+ */
+export enum Priority {
+  /**
+   * @generated from enum value: PriorityReserved0 = 0;
+   */
+  PriorityReserved0 = 0,
+
+  /**
+   * only send when there's enough bandwidth available
+   * meta or auxiliary information where loss is tolerable
+   *
+   * @generated from enum value: PriorityLow = 1;
+   */
+  PriorityLow = 1,
+
+  /**
+   * send before low, but stay within bandwidth limits
+   * this is typically used for detections and other urgent information
+   *
+   * @generated from enum value: PriorityHigh = 2;
+   */
+  PriorityHigh = 2,
+
+  /**
+   * Ignore bandwidth limit, send as hard as physically possible.
+   * Use this only if absolutely sure you understand the operational consequences. 
+   * Doing this wrong can jeopardize missions
+   *
+   * @generated from enum value: PriorityBurst = 3;
+   */
+  PriorityBurst = 3,
+}
+
+/**
+ * Describes the enum world.Priority.
+ */
+export const PrioritySchema: GenEnum<Priority> = /*@__PURE__*/
+  enumDesc(file_world, 0);
 
 /**
  * @generated from enum world.EntityChange
  */
 export enum EntityChange {
   /**
-   * @generated from enum value: Invalid = 0;
+   * @generated from enum value: EntityChangeInvalid = 0;
    */
-  Invalid = 0,
+  EntityChangeInvalid = 0,
 
   /**
-   * @generated from enum value: Updated = 1;
+   * @generated from enum value: EntityChangeUpdated = 1;
    */
-  Updated = 1,
+  EntityChangeUpdated = 1,
 
   /**
-   * @generated from enum value: Expired = 2;
+   * @generated from enum value: EntityChangeExpired = 2;
    */
-  Expired = 2,
+  EntityChangeExpired = 2,
 
   /**
-   * @generated from enum value: Unobserved = 3;
+   * @generated from enum value: EntityChangeUnobserved = 3;
    */
-  Unobserved = 3,
+  EntityChangeUnobserved = 3,
 }
 
 /**
  * Describes the enum world.EntityChange.
  */
 export const EntityChangeSchema: GenEnum<EntityChange> = /*@__PURE__*/
-  enumDesc(file_world, 0);
+  enumDesc(file_world, 1);
 
 /**
  * interact with the world model

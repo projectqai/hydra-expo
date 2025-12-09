@@ -90,11 +90,11 @@ export const useEntityStore = create<EntityState & EntityActions>()((set) => ({
 
           const { entity, t: changeType } = event;
 
-          if (changeType === EntityChange.Updated && entity) {
+          if (changeType === EntityChange.EntityChangeUpdated && entity) {
             pendingDeletes.delete(entity.id);
             pendingUpdates.set(entity.id, entity);
           } else if (
-            (changeType === EntityChange.Expired || changeType === EntityChange.Unobserved) &&
+            (changeType === EntityChange.EntityChangeExpired || changeType === EntityChange.EntityChangeUnobserved) &&
             entity?.id
           ) {
             pendingUpdates.delete(entity.id);
