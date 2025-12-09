@@ -28,8 +28,7 @@ import { Toaster } from "sonner-native";
 SplashScreen.preventAutoHideAsync();
 
 import { TopNav } from "@hydra/core/components/top-nav";
-
-const SECTIONS = [{ label: "Q-Aware", path: "/aware" }];
+import * as HydraEngine from "@hydra/engine";
 
 function FossTopNav() {
   return (
@@ -52,6 +51,12 @@ export default function RootLayout() {
   useEffect(() => {
     if (Platform.OS === "android") {
       NavigationBar.setVisibilityAsync("hidden");
+    }
+  }, []);
+
+  useEffect(() => {
+    if (Platform.OS === "android") {
+      HydraEngine.startEngineService();
     }
   }, []);
 

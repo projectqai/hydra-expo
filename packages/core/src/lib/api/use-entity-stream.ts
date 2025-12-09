@@ -44,10 +44,10 @@ export function useEntityStream(options: UseEntityStreamOptions = {}) {
           setEntities((prev) => {
             const next = new Map(prev);
 
-            if (changeType === EntityChange.Updated && entity) {
+            if (changeType === EntityChange.EntityChangeUpdated && entity) {
               next.set(entity.id, entity);
             } else if (
-              (changeType === EntityChange.Expired || changeType === EntityChange.Unobserved) &&
+              (changeType === EntityChange.EntityChangeExpired || changeType === EntityChange.EntityChangeUnobserved) &&
               entity?.id
             ) {
               next.delete(entity.id);
