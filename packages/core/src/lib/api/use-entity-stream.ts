@@ -47,7 +47,8 @@ export function useEntityStream(options: UseEntityStreamOptions = {}) {
             if (changeType === EntityChange.EntityChangeUpdated && entity) {
               next.set(entity.id, entity);
             } else if (
-              (changeType === EntityChange.EntityChangeExpired || changeType === EntityChange.EntityChangeUnobserved) &&
+              (changeType === EntityChange.EntityChangeExpired ||
+                changeType === EntityChange.EntityChangeUnobserved) &&
               entity?.id
             ) {
               next.delete(entity.id);
